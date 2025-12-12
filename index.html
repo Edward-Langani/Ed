@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <title>Edward Langani 1st website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Edward — Home</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <h1>My First Heading</h1>
+  <header class="navbar">
+    <div class="container">
+      <div class="logo"><a href="index.html">Edward</a></div>
+      <nav>
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <h2>Don't mind, no information yet, I'm still practicing</h2>
+  <main class="container">
+    <h1>Welcome to my site</h1>
+    <p>This is the homepage. Use the menu to go to About or Contact sections.</p>
 
-    <p>My <strong>(Checking bold)</strong> first paragraph.</p>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:edwardlangani@gmail.com">edwardlangani@gmail.com</a></p>
+      <p>Phone: <a href="tel:+27797056717">+27 79 705 6717</a></p>
+    </section>
+  </main>
 
-    <p>Checking <em>italic</em> and <br> breaking the line.</p>
+  <footer class="container">
+    <p>© <span id="year"></span> Edward</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
-
 </html>
+ 
