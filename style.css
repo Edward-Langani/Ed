@@ -6,10 +6,10 @@ h2{
 }
 ul{
   list-style-type: none;
-  background-color: NavyBlue;
+  background-color: red;
+  display: block;
 }
 li{
-  display: block;
   color: white;
   text-align: center;
   padding: 16px;
