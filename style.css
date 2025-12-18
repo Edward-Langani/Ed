@@ -1,4 +1,10 @@
+body{
+  background-color: LightGray;
+}
+h2{
+  background-color:Green;
+}
 ul{
   list-style-type: none;
-  background-color: navy-blue
+  background-color: NavyBlue
 }
