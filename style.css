@@ -6,7 +6,8 @@ h2{
 }
 ul{
   list-style-type: none;
-  background-color: NavyBlue
+  background-color: NavyBlue;
+  display: flex;
 }
 li{
   display: block;
