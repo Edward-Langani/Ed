@@ -6,12 +6,9 @@ h2{
 }
 ul{
   list-style-type: none;
-  background-color: red;
+  background-color: LightBlue;
   display: flex;
 }
 li{
-  color: white;
-  text-align: center;
   margin: 16px;
-  text-decoration: none;
 }
