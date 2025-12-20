@@ -8,6 +8,7 @@ ul{
   list-style-type: none;
   display: flex;
   background-color: LightBlue;
+  justify-content: right;
 }
 li{
   margin: 16px;
